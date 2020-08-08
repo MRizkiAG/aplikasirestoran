@@ -175,3 +175,67 @@ body::-webkit-scrollbar-thumb {
     border: 2px solid var(--font-color);
     color: var(--bg-color);
 }
+
+/* FOOTER */
+footer {
+    background-color: var(--bg-color);
+    width: 100%;
+    padding: 2vw;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 2vw;
+    color: var(--font-color-darken);
+    padding: 2vw;
+}
+
+.sosmed {
+    padding: 3vw;
+    display: flex;
+    justify-content: center;
+}
+
+.sosmed a {
+    display: flex;
+    background: transparent;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 15px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px #1e272e, -5px -5px 5px #E57373;
+    color: var(--font-color-darken);
+}
+
+.sosmed a i {
+    font-size: 2vw;
+}
+
+.sosmed a:hover {
+    box-shadow: inset 5px 5px 5px #1e272e, inset -5px -5px 5px #E57373;
+    transition: .5s;
+    transform: translate(0, 10px);
+}
+
+.sosmed a:hover .fa-whatsapp {
+    color: #4fce5d;
+}
+
+.sosmed a:hover .fa-instagram {
+    color: #d2358b;
+}
+
+.sosmed a:hover .fa-telegram-plane {
+    color: #2BA3D7;
+}
+
+.sosmed a:hover .fa-line {
+    color: #00B900;
+}
+
+.sosmed a:hover .fa-envelope {
+    color: #E20002;
+}
