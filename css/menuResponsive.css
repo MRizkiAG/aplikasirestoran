@@ -1,0 +1,128 @@
+@media all and (min-width:1201px) {
+    .container {
+        max-width: 1980px;
+    }
+
+    .menuu:hover {
+        height: 50vh;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .nav-wrap {
+        width: 100%;
+        display: flex;
+        padding: 2vw;
+    }
+
+    .nav-item p {
+        padding-top: .9vw;
+        font-size: 2vw;
+    }
+
+    .fa-star,
+    .fa-utensils,
+    .fa-check-circle,
+    .fa-money-check {
+        font-size: 5vw;
+    }
+
+    .menu-wrap {
+        top: 20vw;
+    }
+
+    .keterangan h1 {
+        font-size: 2vw;
+    }
+
+    .keterangan table {
+        margin: 3vw 0;
+    }
+
+    .keterangan td {
+        font-size: 1.5vw;
+    }
+
+    .keterangan button {
+        padding: 1.5vw 4vw;
+    }
+
+    footer h1 {
+        font-size: 3vw;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .navbar {
+        top: 0;
+    }
+
+    .nav-wrap {
+        width: 100%;
+        display: flex;
+        padding: 3vw;
+    }
+
+    .nav-item p {
+        padding-top: 1.5vw;
+        font-size: 3vw;
+    }
+
+    .fa-star,
+    .fa-utensils,
+    .fa-check-circle,
+    .fa-money-check {
+        font-size: 7vw;
+    }
+
+    .keterangan h1 {
+        font-size: 3vw;
+    }
+
+    .keterangan table {
+        margin: 2vw 0;
+    }
+
+    .keterangan td {
+        font-size: 2vw;
+    }
+
+    .keterangan button {
+        padding: 2vw 6vw;
+    }
+
+    .sosmed a {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    footer h1 {
+        font-size: 4vw;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .keterangan h1 {
+        font-size: 5vw;
+    }
+
+    .keterangan table {
+        margin: 4vw 0;
+    }
+
+    .keterangan td {
+        font-size: 3vw;
+    }
+}
+
+@media all and (max-width: 200px) {
+    .menuu {
+        height: 80px;
+    }
+
+    .kotak-img {
+        width: 100px;
+        height: 100px;
+        top: -40px;
+    }
+}

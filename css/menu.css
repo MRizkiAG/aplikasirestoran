@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Comic Neue', cursive;
+    font-size: 16px;
+}
+
+:root {
+    --bg-color: #C00A27;
+    --font-color: #FFFDFE;
+    --font-color-darken: #ffc0ca;
+
+}
+
+body {
+    background-color: #FFEBEE;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--bg-color);
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.navbar {
+    width: 100%;
+    background-color: var(--bg-color);
+}
+
+.nav-wrap {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1vw;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1vw;
+    color: #ffc0ca;
+}
+
+.nav-item a.menu {
+    color: #95a5a6;
+}
+
+.nav-item a:hover {
+    color: var(--font-color);
+}
+
+.nav-item a.special:active {
+    color: #ffa502;
+}
+
+.nav-item a.menu:active {
+    color: #95a5a6;
+}
+
+.nav-item a.checkout:active {
+    color: #00b894;
+}
+
+.nav-item a.payment:active {
+    color: #5352ed;
+}
+
+.nav-item p {
+    padding-top: .7vw;
+    font-size: 1.5vw;
+}
+
+.fa-star,
+.fa-utensils,
+.fa-check-circle,
+.fa-money-check {
+    font-size: 2.5vw;
+}
+
+/* Menu */
+
+.menu-wrap {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menuu {
+    position: relative;
+    background-color: var(--bg-color);
+    width: 200px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin: 60px 20px;
+    transition: .5s;
+}
+
+.menuu:hover {
+    height: 360px;
+}
+
+.menuu:hover .keterangan {
+    visibility: visible;
+    top: -40px;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+}
+
+.kotak-img {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    top: -60px;
+}
+
+.kotak-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.keterangan {
+    padding: 0 15px;
+    position: relative;
+    top: -60px;
+    color: var(--font-color-darken);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+    transition: .0s ease-in-out;
+
+}
+
+.keterangan h1 {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.keterangan table {
+    margin: 1vw 0;
+}
+
+.keterangan td {
+    font-size: 1vw;
+    padding: 2px;
+}
+
+.keterangan button {
+    background-color: var(--bg-color);
+    border: 2px solid var(--font-color-darken);
+    border-radius: 20px;
+    color: var(--font-color-darken);
+    padding: 1vw 3vw;
+}
+
+.keterangan button:hover {
+    background-color: var(--font-color);
+    border: 2px solid var(--font-color);
+    color: var(--bg-color);
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--bg-color);
+    width: 100%;
+    padding: 2vw;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 3vw;
+    color: var(--font-color-darken);
+    padding: 2vw;
+}
+
+.sosmed {
+    padding: 3vw;
+    display: flex;
+    justify-content: center;
+}
+
+.sosmed a {
+    display: flex;
+    background: transparent;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 15px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px #1e272e, -5px -5px 5px #E57373;
+    color: var(--font-color-darken);
+}
+
+.sosmed a i {
+    font-size: 2vw;
+}
+
+.sosmed a:hover {
+    box-shadow: inset 5px 5px 5px #1e272e, inset -5px -5px 5px #E57373;
+    transition: .5s;
+    transform: translate(0, 10px);
+}
+
+.sosmed a:hover .fa-whatsapp {
+    color: #4fce5d;
+}
+
+.sosmed a:hover .fa-instagram {
+    color: #d2358b;
+}
+
+.sosmed a:hover .fa-telegram-plane {
+    color: #2BA3D7;
+}
+
+.sosmed a:hover .fa-line {
+    color: #00B900;
+}
+
+.sosmed a:hover .fa-envelope {
+    color: #E20002;
+}

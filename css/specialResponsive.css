@@ -1,0 +1,65 @@
+@media all and (max-width: 768px) {
+    .nav-wrap {
+        width: 100%;
+        display: flex;
+        padding: 2vw;
+    }
+
+    .nav-item p {
+        padding-top: .9vw;
+        font-size: 2vw;
+    }
+
+    .fa-star,
+    .fa-utensils,
+    .fa-check-circle,
+    .fa-money-check {
+        font-size: 5vw;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .navbar {
+        bottom: 0;
+    }
+
+    .nav-wrap {
+        width: 100%;
+        display: flex;
+        padding: 3vw;
+    }
+
+    .nav-item p {
+        padding-top: 1.5vw;
+        font-size: 3vw;
+    }
+
+    .fa-star,
+    .fa-utensils,
+    .fa-check-circle,
+    .fa-money-check {
+        font-size: 7vw;
+    }
+
+    .keterangan h1 {
+        font-size: 4vw;
+    }
+
+    .keterangan table {
+        margin: 1vw 0;
+    }
+
+    .keterangan td {
+        font-size: 2.5vw;
+        padding: 0px;
+    }
+
+    .menu-wrap {
+        padding: 10vw;
+    }
+
+    .keterangan button {
+        font-size: 3vw;
+        padding: 1vw 3vw;
+    }
+}
