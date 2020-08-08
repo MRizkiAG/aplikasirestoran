@@ -185,8 +185,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .keterangan button:hover {
-    background-color: var(--font-color);
-    border: 2px solid var(--font-color);
+    background-color: var(--font-color-darken);
+    border: 2px solid var(--font-color-darken);
     color: var(--bg-color);
 }
 

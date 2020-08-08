@@ -41,16 +41,21 @@
         font-size: 7vw;
     }
 
+    .kotak-img {
+        height: 40vw;
+
+    }
+
     .keterangan h1 {
-        font-size: 4vw;
+        font-size: 8vw;
     }
 
     .keterangan table {
-        margin: 1vw 0;
+        margin: 5vw 0;
     }
 
     .keterangan td {
-        font-size: 2.5vw;
+        font-size: 4vw;
         padding: 0px;
     }
 
@@ -58,8 +63,30 @@
         padding: 10vw;
     }
 
+    .menu-wrap .kotak {
+        width: 100%;
+    }
+
+    .keterangan {
+        padding-bottom: 5vw;
+    }
+
     .keterangan button {
-        font-size: 3vw;
-        padding: 1vw 3vw;
+        font-size: 4vw;
+        padding: 2vw 15vw;
+    }
+
+    .sosmed a {
+        height: 30px;
+        width: 30px;
+        margin: 0 10px;
+    }
+
+    .sosmed a i {
+        font-size: 10px;
+    }
+
+    footer h1 {
+        font-size: 5vw;
     }
 }
