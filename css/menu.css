@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb {
 
 .container {
     max-width: 1200px;
-    padding: 0 15px;
+    padding: 0 3rem;
     margin: 0 auto;
 }
 
@@ -64,7 +64,8 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     text-align: center;
     padding: 1vw;
-    color: #ffc0ca;
+    color: var(--font-color-darken);
+    transition: .5s;
 }
 
 .nav-item a.menu {
@@ -103,7 +104,68 @@ body::-webkit-scrollbar-thumb {
     font-size: 2.5vw;
 }
 
+/* SUBNAV */
+.subnav {
+    width: 100%;
+    background-color: var(--bg-color);
+}
+
+.subnav-wrap {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1vw;
+    border-top: 1px solid var(--font-color-darken);
+}
+
+.subnav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subnav-item a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1vw;
+    color: var(--font-color-darken);
+    transition: .5s;
+}
+
+.subnav-item a:hover {
+    color: var(--font-color);
+}
+
+.subnav-item i {
+    font-size: 2vw;
+    padding-bottom: 5px;
+}
+
+.subnav-item h3 {
+    font-size: 1vw;
+}
+
 /* Menu */
+.menu-makanan>h1 {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    display: block;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.menu-makanan i {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
 
 .menu-wrap {
     margin-top: 20px;
@@ -165,6 +227,7 @@ body::-webkit-scrollbar-thumb {
 .keterangan h1 {
     font-size: 1.5vw;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .keterangan table {
