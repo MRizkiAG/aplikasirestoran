@@ -168,6 +168,11 @@ table.table-orderan {
     color: black;
 }
 
+table.table-orderan tr:nth-of-type(even),
+table.table-total tr:nth-of-type(even) {
+    background-color: #ffc0cb4d;
+}
+
 table.table-orderan th,
 table.table-orderan td {
     border-bottom: 1px solid #b9868673;
