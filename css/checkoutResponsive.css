@@ -1,0 +1,114 @@
+@media all and (max-width: 768px) {
+    .nav-wrap {
+        width: 100%;
+        display: flex;
+        padding: 2vw;
+    }
+
+    .nav-item p {
+        padding-top: .9vw;
+        font-size: 2vw;
+    }
+
+    .fa-star,
+    .fa-utensils,
+    .fa-check-circle,
+    .fa-money-check {
+        font-size: 5vw;
+    }
+}
+
+@media all and (max-width: 670px) {
+    * {
+        font-size: 12px;
+    }
+
+    .container :nth-child(2, 3, 4) {
+        padding: 30px;
+    }
+
+    .navbar {
+        bottom: 0;
+    }
+
+    .nav-wrap {
+        padding: 3vw;
+    }
+
+    .nav-item p {
+        padding-top: 1.5vw;
+        font-size: 3vw;
+    }
+
+    .fa-star,
+    .fa-utensils,
+    .fa-check-circle,
+    .fa-money-check {
+        font-size: 7vw;
+    }
+
+    .checkout h1 {
+        padding: .5rem 1rem;
+        margin: 2rem 0;
+    }
+
+    input,
+    textarea {
+        padding: 3vw;
+        width: 100%;
+        height: 50px;
+    }
+
+    .pelanggan,
+    .total {
+        width: 100%;
+    }
+
+    table.table-orderan th,
+    table.table-orderan td {
+        padding: 3vw;
+    }
+
+    table.table-orderan .gambar {
+        width: 100%;
+        padding-right: 1vw;
+    }
+
+    table.table-orderan .gambar img {
+        width: 100%;
+    }
+
+    table.table-orderan ul {
+        text-align: left;
+    }
+
+    i.fa-times,
+    i.fa-plus,
+    i.fa-minus {
+        color: #b9868673;
+        font-size: 5vw;
+        transition: .5s;
+        padding: 1rem;
+    }
+
+
+    .total {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+
+    .sosmed a {
+        height: 30px;
+        width: 30px;
+        margin: 0 10px;
+    }
+
+    .sosmed a i {
+        font-size: 10px;
+    }
+
+    footer h1 {
+        font-size: 5vw;
+    }
+}
