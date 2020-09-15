@@ -4,15 +4,14 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    font-family: 'Comic Neue', cursive;
+    font-family: "Comic Neue", cursive;
     font-size: 16px;
 }
 
 :root {
-    --bg-color: #C00A27;
-    --font-color: #FFFDFE;
+    --bg-color: #c00a27;
+    --font-color: #fffdfe;
     --font-color-darken: #ffc0ca;
-
 }
 
 body {
@@ -65,7 +64,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
     padding: 1vw;
     color: var(--font-color-darken);
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .nav-item a.menu {
@@ -93,7 +92,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nav-item p {
-    padding-top: .7vw;
+    padding-top: 0.7vw;
     font-size: 1.5vw;
 }
 
@@ -134,7 +133,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
     padding: 1vw;
     color: var(--font-color-darken);
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .subnav-item a:hover {
@@ -151,7 +150,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Menu */
-.menu-makanan>h1 {
+.menu-makanan > h1 {
     background-color: var(--bg-color);
     color: var(--font-color);
     display: block;
@@ -184,7 +183,7 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     border-radius: 5px;
     margin: 60px 20px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .menuu:hover {
@@ -194,8 +193,8 @@ body::-webkit-scrollbar-thumb {
 .menuu:hover .keterangan {
     visibility: visible;
     top: -40px;
-    transition: .5s ease-in-out;
-    transition-delay: .3s;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.3s;
 }
 
 .kotak-img {
@@ -220,8 +219,7 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
     align-items: center;
     visibility: hidden;
-    transition: .0s ease-in-out;
-
+    transition: 0s ease-in-out;
 }
 
 .keterangan h1 {
@@ -283,7 +281,7 @@ footer h1 {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    box-shadow: 5px 5px 5px #1e272e, -5px -5px 5px #E57373;
+    box-shadow: 5px 5px 10px #ab0923, -5px -5px 10px #d50b2b;
     color: var(--font-color-darken);
 }
 
@@ -292,9 +290,8 @@ footer h1 {
 }
 
 .sosmed a:hover {
-    box-shadow: inset 5px 5px 5px #1e272e, inset -5px -5px 5px #E57373;
-    transition: .5s;
-    transform: translate(0, 10px);
+    box-shadow: inset 5px 5px 10px #ab0923, inset -5px -5px 10px #d50b2b;
+    transition: 0.5s;
 }
 
 .sosmed a:hover .fa-whatsapp {
@@ -306,13 +303,13 @@ footer h1 {
 }
 
 .sosmed a:hover .fa-telegram-plane {
-    color: #2BA3D7;
+    color: #2ba3d7;
 }
 
 .sosmed a:hover .fa-line {
-    color: #00B900;
+    color: #00b900;
 }
 
 .sosmed a:hover .fa-envelope {
-    color: #E20002;
+    color: #e20002;
 }
